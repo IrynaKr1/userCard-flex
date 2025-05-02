@@ -11,10 +11,16 @@
 
 body {
   font-family: var(--main-font);
-  padding: 15px;
-  background-color: #E6EDEF;
+  padding: 20px;
+  background-color: #e6edef;
   display: flex;
   gap: 15px;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .userCard {
@@ -23,7 +29,7 @@ body {
   background-color: #fff9f9;
   align-items: center;
   min-width: 300px;
-  max-width: 572px;
+  max-width: 500px;
   max-height: 843px;
   flex-basis: 300px;
   flex-grow: 1;
@@ -31,8 +37,8 @@ body {
 }
 
 .imgWrapper {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   margin: 0 auto;
 }
 
@@ -43,4 +49,88 @@ body {
   border-radius: 50%;
   overflow: hidden;
   margin-top: 32px;
+}
+
+.cardMainContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+
+.userName {
+  text-transform: uppercase;
+  color: var(--main-color);
+  font-weight: 800;
+  font-size: 2.375rem;
+}
+
+.userTitle {
+  font-weight: 800;
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+}
+
+.userInfo {
+  align-self: flex-end;
+  font-family: var(--secondary-font);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+}
+
+.cardFooter {
+  margin-top: auto;
+  text-align: center;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.footerTitle {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 2.375rem;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 2.375rem;
+  margin-top: 20px;
+  padding: 10px;
+  border-bottom: 2px #515b34 solid;
+}
+
+.contactAction {
+  padding: 10px;
+  width: 100%;
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.emal,
+.wiki {
+  padding: 15px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 120px;
+}
+
+.emal {
+  background-color: var(--main-color);
+}
+
+.wiki {
+  background-color: var(--secondary-color);
 }
