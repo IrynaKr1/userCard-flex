@@ -12,33 +12,49 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <article>
-      <div class="img-wrapper">
-        <img src="assets/img/harry_potter.jpg" alt="Harry Potter" />
+    <article class="userCard">
+      <div class="imgWrapper">
+        <img
+          class="avatar"
+          src="assets/img/harry_potter.jpg"
+          alt="Harry Potter"
+        />
       </div>
-      <h2>Harry Potter</h2>
-      <h3>The Boy Who Lived</h3>
-      <p>
+      <h2 class="userName">Harry Potter</h2>
+      <h3 class="userTitle">The Boy Who Lived</h3>
+      <p class="userInfo">
         The prophecy, which foretold the birth of a child who would defeat
         Voldemort, led the Dark Lord to attempt to kill baby Harry. However,
         Harry survived the attack, and Voldemort's power was diminished.
       </p>
-      <footer>
+      <footer class="cardFooter">
         <div>Contact</div>
         <ul class="socialLinks">
           <li class="socialLinksElement">
             <i class="fa-solid fa-wand-sparkles"></i>
           </li>
-          <li class="socialLinksElement"><i class="fa-brands fa-whatsapp"></i></li>
-          <li class="socialLinksElement"><i class="fa-brands fa-instagram"></i></li>
-          <li class="socialLinksElement"><i class="fa-brands fa-x-twitter"></i></li>
+          <li class="socialLinksElement">
+            <i class="fa-brands fa-whatsapp"></i>
+          </li>
+          <li class="socialLinksElement">
+            <i class="fa-brands fa-instagram"></i>
+          </li>
+          <li class="socialLinksElement">
+            <i class="fa-brands fa-x-twitter"></i>
+          </li>
         </ul>
         <div class="contactAction">
-            <a href="mailto:test@test.test">Contact Me</a>
-            <a href="#">Hire Me</a>
+          <a href="mailto:test@test.test">Contact Me</a>
+          <a href="#">More Info</a>
         </div>
       </footer>
     </article>
