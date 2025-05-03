@@ -16,6 +16,7 @@ body {
   display: flex;
   gap: 15px;
   font-size: 16px;
+  flex-wrap: wrap;
 }
 
 a {
@@ -30,7 +31,6 @@ a {
   align-items: center;
   min-width: 300px;
   max-width: 500px;
-  max-height: 843px;
   flex-basis: 300px;
   flex-grow: 1;
   border-radius: 39px;
@@ -47,7 +47,6 @@ a {
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
-  overflow: hidden;
   margin-top: 32px;
 }
 
@@ -104,6 +103,18 @@ a {
   margin-top: 20px;
   padding: 10px;
   border-bottom: 2px #515b34 solid;
+}
+
+.socialLinksElement {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .contactAction {
